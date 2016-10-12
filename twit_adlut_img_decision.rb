@@ -7,13 +7,13 @@ require 'deep_fetch'
 require 'twitter'
 require 'time'
 
-CONSUMER_KEY = '5lqNog0Y9zoNVdqLbNORPIwqB'
-CONSUMER_SECRET = 'jGLUzO7yG9nsT25D2ButyJJnKKoRal7Vv15dbHP9rMbLbDU8Ql'
-ACCESS_TOKEN = '99107959-MOoNFW1GlqimnbJsFIIJlzipOxui3sFsLCth7LgMJ'
-ACCESS_TOKEN_SECRET = '31yai3JFnFbylDb6fLLftCOjL3Uol8DX77WiKFTYGQlwG'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 VISION_API_URL = "https://vision.googleapis.com/v1/images:annotate"
-API_KEY        = "AIzaSyDQKbxWcA6wPNyOn8giCJFWYLlxOQuYjUM"
+API_KEY        = ""
 URL            = "#{VISION_API_URL}?key=#{API_KEY}"
 
 TWEET_TIME = "2016-10-01 00:00:00 +0000"
